@@ -372,7 +372,10 @@ screen main_menu():
 
             text "[config.name!t]":
                 style "main_menu_title"
-
+                color "#8B8000"
+                ypos -700
+                xpos -200
+                
             text "[config.version]":
                 style "main_menu_version"
 
